@@ -2,6 +2,8 @@ services:
   app:
     build:
       context: .
+      args:
+        - DEBUG=True
     ports:
       - "5005:5005"
     volumes:

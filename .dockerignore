@@ -2,8 +2,6 @@
 .git
 .gitignore
 
-requirements.txt
-
 # Python
 /app/*/__pycache__/
 /app/*/*/__pycache__/
