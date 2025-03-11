@@ -3,7 +3,8 @@ services:
     build:
       context: .
       args:
-        - DEBUG=True
+        - DEBUG=true
+        - DEV=true
     ports:
       - "5005:5005"
     volumes:
