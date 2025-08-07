@@ -1,4 +1,7 @@
-FROM python:3.13-alpine
+FROM python:3.13-alpine3.19
+
+# Update Alpine packages to reduce vulnerabilities
+RUN apk update && apk upgrade --available
 
 ENV PYTHONUNBUFFERED=1
 
