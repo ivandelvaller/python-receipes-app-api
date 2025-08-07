@@ -1,3 +1,48 @@
-.venv
+# Python virtual environment
+.venv/
+venv/
 
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django/Migrations
+*/migrations/
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Environment variables
 .env
+.env.*
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Database files
+*.sqlite3
+
+# Coverage/test reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Static/media files (if generated locally)
+staticfiles/
+media/
+
+# Docker
+*.pid
